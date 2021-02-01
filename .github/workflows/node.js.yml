@@ -25,8 +25,9 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm ci
     - name: 依赖安装
-    - run: npm install 
+      run: |
+          npm install 
     - name: 构建
-    - run: npm run build
+      run: |
+          npm run build
