@@ -4,8 +4,7 @@ node_modules
 dist_electron
 Icon?
 
-# local env files
-.env
+
 .env.local
 .env.*.local
 
