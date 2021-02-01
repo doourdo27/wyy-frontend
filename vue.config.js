@@ -4,7 +4,6 @@ function resolve(dir) {
 }
 
 module.exports = {
-  publicPath: "https://cdn.jsdelivr.net/gh/doourdo27/music@1.2/",
   devServer: {
     disableHostCheck: true,
     port: process.env.DEV_SERVER_PORT || 8080,
