@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "https://music.qier222.com",
+      "destination": "https://music.qier222.com"
+    }
+  ]
+}
